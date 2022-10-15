@@ -1,7 +1,7 @@
 export default class Pricing {
-    constructor(_amount, _currency) {
-        this._amount = _amount;
-        this._currency = _currency;
+    constructor(amount, currency) {
+        this._amount = amount;
+        this._currency = currency;
     }
 
     displayFullPrice() {
